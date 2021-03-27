@@ -69,4 +69,16 @@ $(document).ready(function(){
     $("#to-blue").click(function(){
         theme.attr("href", "css/blue.css");
     });
+
+
+    // Scroll arriba de la web
+    $('.subir').click(function(e){
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+
+        return false;
+    })
 });
