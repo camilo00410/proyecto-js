@@ -10,17 +10,13 @@
 
         <!-- JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
         
-       
+       <!-- JQuery UI -->
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+       <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+       <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
 
-        <!-- Slider -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-        <!-- MommentJs(Fecha formateada(Espanol)) -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"></script>
+       <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
         
         <!-- Mis Scripts -->
         <script src="js/main.js"></script>
@@ -55,20 +51,28 @@
                 </nav>
             </header>
 
-            <!-- Slider -->
-            <div id="slider">
-                <div class="galeria">
-                    <div><img src="img/hojas.jpg" title="Hojas"></div>
-                    <div><img src="img/rojo.jpg" title=""></div>
-                    <div><img src="img/cielo.jpg" title="Happy trees"></div>
-                  </div>
-            </div>
-
-
+     
             <!-- Contenido -->
             <section id="content">
-                <div id="posts">
-                    <!-- Cargar posts desde un json -->
+                <div id="box">
+                    <!-- Cargar acordeon -->
+                    <h2>Sobre</h2>
+                    <div id="acordeon">
+                        <h3>Quienes somos?</h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores enim praesentium qui sapiente neque! Sint, eveniet, odio nobis ipsam at fuga commodi eaque incidunt voluptatem ex repellendus aliquam nostrum obcaecati?</p>
+                        </div>
+
+                        <h3>Nuestros servicios</h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores enim praesentium qui sapiente neque! Sint, eveniet, odio nobis ipsam at fuga commodi eaque incidunt voluptatem ex repellendus aliquam nostrum obcaecati?</p>
+                        </div>
+
+                        <h3>Nuestros clientes</h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores enim praesentium qui sapiente neque! Sint, eveniet, odio nobis ipsam at fuga commodi eaque incidunt voluptatem ex repellendus aliquam nostrum obcaecati?</p>
+                        </div>
+                    </div>
                 </div>
                 <aside id="sidebar">
                     <div id="about">
