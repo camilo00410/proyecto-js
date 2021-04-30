@@ -110,7 +110,17 @@ $(document).ready(function(){
         })
     }
 
+    // Acordeon
     if(window.location.href.indexOf('about') > -1){
         $("#acordeon").accordion();
     }
+
+    // Reloj
+    if(window.location.href.indexOf('reloj') > -1){
+        setInterval(function(){
+            var reloj = moment().format('h:mm:ss');
+        $('#reloj').html(reloj);
+        }, 1000);
+    }
+
 });
